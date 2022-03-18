@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dumpling-drinker/churchle/static/css/main.94731591.css",
-    "main.js": "/dumpling-drinker/churchle/static/js/main.c3acd01d.js",
-    "index.html": "/dumpling-drinker/churchle/index.html",
-    "main.94731591.css.map": "/dumpling-drinker/churchle/static/css/main.94731591.css.map",
-    "main.c3acd01d.js.map": "/dumpling-drinker/churchle/static/js/main.c3acd01d.js.map"
+    "main.css": "/dumpling-drinker/static/css/main.94731591.css",
+    "main.js": "/dumpling-drinker/static/js/main.6c7401e9.js",
+    "index.html": "/dumpling-drinker/index.html",
+    "main.94731591.css.map": "/dumpling-drinker/static/css/main.94731591.css.map",
+    "main.6c7401e9.js.map": "/dumpling-drinker/static/js/main.6c7401e9.js.map"
   },
   "entrypoints": [
     "static/css/main.94731591.css",
-    "static/js/main.c3acd01d.js"
+    "static/js/main.6c7401e9.js"
   ]
 }
