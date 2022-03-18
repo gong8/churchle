@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dumpling-drinker/static/css/main.94731591.css",
-    "main.js": "/dumpling-drinker/static/js/main.6c7401e9.js",
-    "index.html": "/dumpling-drinker/index.html",
-    "main.94731591.css.map": "/dumpling-drinker/static/css/main.94731591.css.map",
-    "main.6c7401e9.js.map": "/dumpling-drinker/static/js/main.6c7401e9.js.map"
+    "main.css": "./static/css/main.94731591.css",
+    "main.js": "./static/js/main.c3acd01d.js",
+    "index.html": "./index.html",
+    "main.94731591.css.map": "./static/css/main.94731591.css.map",
+    "main.c3acd01d.js.map": "./static/js/main.c3acd01d.js.map"
   },
   "entrypoints": [
     "static/css/main.94731591.css",
-    "static/js/main.6c7401e9.js"
+    "static/js/main.c3acd01d.js"
   ]
 }
