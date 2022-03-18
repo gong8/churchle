@@ -1,0 +1,113 @@
+.game {
+  display: grid;
+}
+
+@media screen and (min-width: 400px) {
+  :root {
+    --box-size: 40px;
+    --key-size: 20px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  :root {
+    --box-size: 44px;
+    --key-size: 28px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  :root {
+    --box-size: 52px;
+    --key-size: 36px;
+  }
+}
+
+.box {
+  display: inline-grid;
+  width: var(--box-size);
+  height: var(--box-size);
+}
+
+.keyboard {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.key {
+  height: var(--key-size);
+  width: calc(var(--key-size) / 2);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.box,
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(64, 64, 64);
+}
+
+.key {
+  margin: 4px;
+  user-select: none;
+}
+
+.box {
+  margin: 2px;
+}
+
+.box-green {
+  background-color: rgb(72, 143, 72);
+}
+
+.box-yellow {
+  background-color: rgb(201, 201, 92);
+}
+
+.container {
+  font-size: 1.5em;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.key:hover {
+  opacity: 0.9;
+}
+
+.key-grey {
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.key-yellow {
+  background-color: rgb(201, 201, 92);
+}
+
+.key-green {
+  background-color: rgb(72, 143, 72);
+}
