@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dumpling-drinker/churchle/static/css/main.94731591.css",
+    "main.js": "/dumpling-drinker/churchle/static/js/main.c3acd01d.js",
+    "index.html": "/dumpling-drinker/churchle/index.html",
+    "main.94731591.css.map": "/dumpling-drinker/churchle/static/css/main.94731591.css.map",
+    "main.c3acd01d.js.map": "/dumpling-drinker/churchle/static/js/main.c3acd01d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94731591.css",
+    "static/js/main.c3acd01d.js"
+  ]
+}
