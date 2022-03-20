@@ -95,13 +95,18 @@ export const Game: FC<GameProps> = ({ cols, active, onEnter, onComplete }) => {
                             }
 
                             for (let i = 0; i < cols; i++) {
-                                if (correct.has(word[i]) && copy[currRow][i] !== 2 && correct.get(word[i])!.length > 0) {
-                                    copy[currRow][i] = 1;
-                                    keys[word[i]] = 1;
-                                } else {
-                                    copy[currRow][i] ??= 0;
-                                    keys[word[i]] ??= 0;
+                                if (correct.has(word[i]) && copy[currRow][i] !== 2) {
+                                    const positions = correct.get(word[i])!;
+                                    if (positions.length > 0) {
+                                        copy[currRow][i] = 1;
+                                        keys[word[i]] = 1;
+                                        positions.pop();
+                                        continue;
+                                    }
                                 }
+
+                                copy[currRow][i] ??= 0;
+                                keys[word[i]] ??= 0;
                             }
 
                             if (copy[currRow].every((value) => value === 2)) {
